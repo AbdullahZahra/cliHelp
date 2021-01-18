@@ -26,3 +26,11 @@ $ git add -A
 To remove files from the staging area
 $ git reset <files>
 
+To remove all files from the staging area
+$git reset
+
+--------------------------------------
+
+To commit a change 
+$ git commit -m "message"
+$ git log
