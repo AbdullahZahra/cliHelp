@@ -31,6 +31,28 @@ $git reset
 
 --------------------------------------
 
-To commit a change 
+To commit a change
+$ git diff  
 $ git commit -m "message"
 $ git log
+
+--------------------------------------
+
+To clone a remote repository 
+
+$ git clone <url> <where to clone>
+$ git clone ../remote_repo.git
+
+--------------------------------------
+
+Viewing information about the remote repository
+
+$ git remote -v 
+$ git branch -a 
+
+--------------------------------------
+
+To push changes to remote repository
+
+$ git pull origin master
+$ git push origin master
