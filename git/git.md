@@ -24,7 +24,7 @@ To add files to the staging area
 $ git add -A
 
 To remove files from the staging area
-$ git reset <files>
+$ git reset files
 
 To remove all files from the staging area
 $git reset
@@ -40,7 +40,7 @@ $ git log
 
 To clone a remote repository 
 
-$ git clone <url> <where to clone>
+$ git clone url where to clone
 $ git clone ../remote_repo.git
 
 --------------------------------------
@@ -61,5 +61,32 @@ $ git push origin master
 
 To create a branch for a desired featured
 
-$ git branch <branch name>
-$ git checkout <branch name>
+$ git branch branch name
+$ git checkout branch name
+
+---------------------------------------
+
+To push branch to remote repo
+
+$ git pull
+$ git push -u origin branch-name
+$ git branch -a
+
+----------------------------------------
+
+To merge a branch 
+
+$ git checkout master 
+$ git pull origin master 
+$ git branch --merged
+$ git merge branch-name
+$ git push origing master
+
+-----------------------------------------
+
+To delete a branch
+
+$ git branch --merged 
+$ git branch -d branch-name
+$ git branch -a
+$ git push origin --delete branch-name
