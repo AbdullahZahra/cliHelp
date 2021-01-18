@@ -56,3 +56,10 @@ To push changes to remote repository
 
 $ git pull origin master
 $ git push origin master
+
+--------------------------------------
+
+To create a branch for a desired featured
+
+$ git branch <branch name>
+$ git checkout <branch name>
